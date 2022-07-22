@@ -5,7 +5,8 @@
 ## Sumário
 - [Chave Pix](#chave-pix) <br>
 - [QR Code](#qr-code)<br>
-- [Configurando uma chave Pix](#configurando-uma-chave-pix)
+- [Configurando uma chave Pix](#configurando-uma-chave-pix) <br>
+- [Documentação de suporte](#documentação-de-suporte)
 ---
 
 O Pix é o sistema de pagamento instântaneo lançado em 2020 pelo **Banco Central do Brasil**. Esse meio de pagamento deve ser disponibilizado 24 horas por dia, durante os 7 dias da semana, sem diferenciar finais de semana ou feriados. 
@@ -59,3 +60,7 @@ O fluxograma abaixo representa a experiência de criação de uma chave Pix.
 
 > ### Observação
 > É possível realizar a migração de uma chave já existente entre diferentes instituições financeiras. Caso um usuário queira cadastrar uma chave com um dado já utilizado, será dada a opção de portar essa chave para a nova conta no momento de criação da chave. **O DICT, sistema do Banco Central que gerencia o cadastro das chaves do Pix**, será o responsável por conectar as duas instituições e garantir que a portabilidade seja feita.
+
+## Documentação de suporte
+[FAQ Pix - Bacen](https://www.bcb.gov.br/acessoinformacao/perguntasfrequentes-respostas/faq_pixpagtoinstantaneo). <br>
+[Regulamento Pix](https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20BCB&numero=1).
