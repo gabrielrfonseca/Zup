@@ -50,8 +50,8 @@ O **QR code dinâmico** é exclusivo de cada transação, só podendo ser utiliz
 
 O processo de configuração de uma chave Pix se inicia através do aplicativo da instituição financeira a qual você deseja atrelar o sistema à sua conta. As seguintes entidades fazem parte dele:
 
-- Usuário;
-- Instituições financeiras;
+- Usuário.
+- Instituições financeiras.
 - Banco Central do Brasil.
 
 O fluxograma abaixo representa a experiência de criação de uma chave Pix.
