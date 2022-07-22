@@ -23,9 +23,9 @@ até como criar um repositório do zero.
 ![logo_pix](https://user-images.githubusercontent.com/30627500/180342797-c089ae51-aa91-4222-b30f-3a173a67db79.png)
 
 ## Sumário
-[Chave Pix](#chave-pix) <br>
-[QR Code](#qr-code)<br>
-[Configurando uma chave Pix](#configurando-uma-chave-pix)
+- [Chave Pix](#chave-pix) <br>
+- [QR Code](#qr-code)<br>
+- [Configurando uma chave Pix](#configurando-uma-chave-pix)
 ---
 
 O Pix é o sistema de pagamento instântaneo lançado em 2020 pelo Banco Central do Brasil. Esse meio de pagamento deve ser disponibilizado 24 horas por dia, durante os 7 dias da semana, sem diferenciar finais de simana e feriados.
@@ -38,10 +38,10 @@ O Banco Central do Brasil (Bacen) é o órgão regulador responsável pelas norm
 
 ![pix](https://user-images.githubusercontent.com/30627500/180342812-bf905b90-62ea-4806-aea1-b9bb8680f0ba.PNG)
 
-> #### Observação
+> ### Observação
 > Não há limite mínimo para pagamentos ou transferências via Pix. Entretanto, as instituições que ofertam o Pix poderão estabelecer limites máximos de valor baseados em critérios de mitigação de riscos de fraude e de critérios de prevenção à lavagem de dinheiro e ao financiamento do terrorismo. Os usuários podem solicitar ajustes nos limites estabelecidos, devendo a instituição acatar imediatamente a solicitação caso o pedido seja para redução de valor.
 
-### Chave Pix
+## Chave Pix
 
 A chave Pix é um identificador utilizado para facilitar a transação, necessitando apenas de uma informação do recebedor para que a transferência seja realizada.
 
@@ -54,7 +54,7 @@ Ela contém as informações de seus usuários, com suas respectivas contas tran
 
 Atualmente, uma conta de pessoa física pode ter no máximo 5 chaves cadastradas, enquanto que uma conta de pessoa jurídica pode ter até 20 chaves. Contudo, as chaves do tipo CPF/CNPJ possuem um limite de uma chave por conta, tendo as demais chaves uma quantidade limite permitida diferente para cada caso. 
 
-### QR Code
+## QR Code
 
 É possível também fazer transações Pix utilizando QR codes como identificadores de transações. Existem dois tipos distintos, sendo eles:
 
@@ -62,3 +62,22 @@ Atualmente, uma conta de pessoa física pode ter no máximo 5 chaves cadastradas
 - QR code dinâmico.
 
 O QR code estático permite que várias transações sejam realizadas a partir de um mesmo QR code. Com isso, é possível definir valores fixos para produtos e serviçoes e disponibilizar o QR code previamente como método de pagamento. O QR code dinâmico é exlusivo de cada transação, só podendo ser utilizados uma única vez. Isso significa que idealmente ele será gerado no ato da compra.
+
+## Configurando uma chave Pix
+
+O processo de configuração de uma chave Pix se inicia através do aplicativo da instituição financeira a qual você quer atrelar esse sistema à sua conta. 
+
+O processo de criação da chave é responsável pela associação de uma chave DICT a uma conta de pagamentos instantâneos. As seguintes entidades fazem parte dele:
+
+- Usuário;
+- Instituições financeiras;
+- Banco Central do Brasil.
+
+O fluxograma abaixo representa a experiência de criação de uma chave Pix.
+
+![image](https://user-images.githubusercontent.com/30627500/180353827-56ff7dff-7f9f-459e-9fae-e4c975491452.png)
+
+> ### Observação
+> É possível realizar a migração de uma chave já existente entre diferentes instituições financeiras. Caso um usuário queira cadastrar uma chave com um dado já utilizado, será dada a opção de portar essa chave para a nova conta. O DICT, sistema do Banco Central que gerencia o cadastro das chaves do Pix, será o responsável por conectar as duas instituições e garantir que a portabilidade seja feita.
+
+<!--PIX -> CRIAR CHAVE PIX -> ESCOLHER O TIPO DE CHAVE PIX -> INFORMAR O DADO CASO NÃO SEJA CHAVE ALEATÓRIA -> CONFIRMAR O DADO -> O DADO SERÁ VALIDADO, PARA CHECAR SE NÃO JÁ ESTÁ EM USO -> CASO NÃO ESTEJA EM USO, A CHAVE SERÁ CRIADA. SE TIVER EM USO, SERÁ POSSÍVEL PEDIR PORTABILIDADE DA CHAVE PIX PARA A NOVA INSTITUIÇÃO. -->
