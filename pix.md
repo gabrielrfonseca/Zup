@@ -20,13 +20,15 @@ até como criar um repositório do zero.
 -->
 # Pix
 
+![logo_pix](https://user-images.githubusercontent.com/30627500/180342452-969c6364-98cc-4927-af21-889d64e2a015.png "Figura 1.")
+
 O Pix é o sistema de pagamento instântaneo lançado em 2020 pelo Banco Central do Brasil. Esse meio de pagamento deve ser disponibilizado 24 horas por dia, durante os 7 dias da semana, sem diferenciar finais de simana e feriados.
 
 O seu diferencial é que em poucos segundos a transferência deve ser concluída, permitindo que o dinheiro saia de uma conta A para uma conta B rapidamente. O Pix pode ser realizado a partir de uma conta corrente, conta poupança ou conta de pagamento pré-paga.
 
 O Banco Central do Brasil (Bacen) é o órgão regulador responsável pelas normativas referentes ao Pix. Saiba mais em: [Banco Central do Brasil](https://www.bcb.gov.br/estabilidadefinanceira/pix).
 
-![pix.PNG]("Pix")
+![pix](https://user-images.githubusercontent.com/30627500/180342409-5ebfbc49-57c6-4d4b-9572-57daf678a519.PNG "Figura 2.")
 
 Método de identificação
 Uma das grandes vantagens do Pix é a agilidade no pagamento. Em vez de pedir agência, conta e dados pessoais do recebedor, basta pedir a Chave Pix, que é a identificação de preferência.
