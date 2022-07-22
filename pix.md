@@ -20,7 +20,7 @@ até como criar um repositório do zero.
 -->
 # Pix
 
-![logo_pix](https://user-images.githubusercontent.com/30627500/180342797-c089ae51-aa91-4222-b30f-3a173a67db79.png "Figura 1. Pix logo - Banco Central do Brasil.")
+!["Figura 1. Pix logo - Banco Central do Brasil."](https://user-images.githubusercontent.com/30627500/180342797-c089ae51-aa91-4222-b30f-3a173a67db79.png "Figura 1. Pix logo - Banco Central do Brasil.")
 
 ## Sumário
 - [Chave Pix](#chave-pix) <br>
