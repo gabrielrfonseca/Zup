@@ -65,9 +65,7 @@ O QR code estático permite que várias transações sejam realizadas a partir d
 
 ## Configurando uma chave Pix
 
-O processo de configuração de uma chave Pix se inicia através do aplicativo da instituição financeira a qual você quer atrelar esse sistema à sua conta. 
-
-O processo de criação da chave é responsável pela associação de uma chave DICT a uma conta de pagamentos instantâneos. As seguintes entidades fazem parte dele:
+O processo de configuração de uma chave Pix se inicia através do aplicativo da instituição financeira a qual você deseja atrelar o sistema à sua conta. As seguintes entidades fazem parte dele:
 
 - Usuário;
 - Instituições financeiras;
@@ -75,9 +73,9 @@ O processo de criação da chave é responsável pela associação de uma chave 
 
 O fluxograma abaixo representa a experiência de criação de uma chave Pix.
 
-![image](https://user-images.githubusercontent.com/30627500/180353827-56ff7dff-7f9f-459e-9fae-e4c975491452.png)
+![fluxograma](https://user-images.githubusercontent.com/30627500/180355155-d96d765b-eede-4941-a065-5c0e007f1b3b.jpeg)
 
 > ### Observação
-> É possível realizar a migração de uma chave já existente entre diferentes instituições financeiras. Caso um usuário queira cadastrar uma chave com um dado já utilizado, será dada a opção de portar essa chave para a nova conta. O DICT, sistema do Banco Central que gerencia o cadastro das chaves do Pix, será o responsável por conectar as duas instituições e garantir que a portabilidade seja feita.
+> É possível realizar a migração de uma chave já existente entre diferentes instituições financeiras. Caso um usuário queira cadastrar uma chave com um dado já utilizado, será dada a opção de portar essa chave para a nova conta no momento de criação da chave. O DICT, sistema do Banco Central que gerencia o cadastro das chaves do Pix, será o responsável por conectar as duas instituições e garantir que a portabilidade seja feita.
 
 <!--PIX -> CRIAR CHAVE PIX -> ESCOLHER O TIPO DE CHAVE PIX -> INFORMAR O DADO CASO NÃO SEJA CHAVE ALEATÓRIA -> CONFIRMAR O DADO -> O DADO SERÁ VALIDADO, PARA CHECAR SE NÃO JÁ ESTÁ EM USO -> CASO NÃO ESTEJA EM USO, A CHAVE SERÁ CRIADA. SE TIVER EM USO, SERÁ POSSÍVEL PEDIR PORTABILIDADE DA CHAVE PIX PARA A NOVA INSTITUIÇÃO. -->
