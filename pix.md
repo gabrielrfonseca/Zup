@@ -26,7 +26,7 @@ O seu diferencial é que em poucos segundos a transferência deve ser concluída
 
 O Banco Central do Brasil (Bacen) é o órgão regulador responsável pelas normativas referentes ao Pix. Saiba mais em: [Banco Central do Brasil](https://www.bcb.gov.br/estabilidadefinanceira/pix).
 
-![Figure 1 Pix](images/pix.PNG "Figura 1. Pix 11")
+![pix.PNG]("Pix")
 
 Método de identificação
 Uma das grandes vantagens do Pix é a agilidade no pagamento. Em vez de pedir agência, conta e dados pessoais do recebedor, basta pedir a Chave Pix, que é a identificação de preferência.
