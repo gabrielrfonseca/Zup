@@ -4,8 +4,6 @@ Artigo explicativo sobre o Pix e sua utilização. Foi utilizado como base infor
 
 ## Sumário
 
-- [Chave Pix](pix.md#chave-pix) <br>
-- [QR Code](pix.md#qr-code) <br>
-- [Configurando uma chave Pix](pix.md#configurando-uma-chave-pix) <br>
-- [Documentação de suporte](pix.md#documentação-de-suporte)
 
+- [Pix](pix.md)
+- [Imagens](images)
