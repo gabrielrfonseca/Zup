@@ -20,7 +20,7 @@ Saiba mais em: [Banco Central do Brasil](https://www.bcb.gov.br/estabilidadefina
 ![pix](https://user-images.githubusercontent.com/30627500/180342812-bf905b90-62ea-4806-aea1-b9bb8680f0ba.PNG "Figura 2. Vantagens Pix - Banco Central do Brasil.")
 
 > ### Observação
-> **Não existe limite mínimo de valores para pagamentos ou transferências via Pix.** Entretanto, as instituições que ofertam o Pix poderão estabelecer limites máximos de valor baseados em critérios de mitigação de riscos de fraude e de critérios de prevenção à lavagem de dinheiro e ao financiamento do terrorismo. Os usuários podem solicitar ajustes nos limites estabelecidos caso achem necessário, **devendo a instituição acatar imediatamente** a solicitação se o pedido seja para redução de valor.
+> **Não existe limite mínimo de valores para pagamentos ou transferências via Pix.** Entretanto, as instituições que ofertam o Pix poderão estabelecer limites máximos de valor baseados em critérios de mitigação de riscos de fraude e de critérios de prevenção à lavagem de dinheiro e ao financiamento do terrorismo. Os usuários podem solicitar ajustes nos limites estabelecidos caso achem necessário, **devendo a instituição acatar imediatamente** a solicitação se o pedido for para redução de valor.
 
 ## Chave Pix
 
@@ -28,23 +28,23 @@ A chave Pix é um identificador utilizado para facilitar a transação, necessit
 
 Ela contém as informações de seus usuários, com suas respectivas contas transacionais e fica armazenada numa base de dados chamada _Pix DICT - Diretório de Identificadores de Contas Transacionais_.  A chave pix previamente cadastrada pode ser:
 
-- CPF ou CNPJ;
-- E-mail;
-- Número de celular;
+- CPF ou CNPJ.
+- E-mail.
+- Número de celular.
 - Chave aleatória (sequência alfanumérica gerada aleatoriamente). 
 
 Atualmente, uma conta de pessoa física pode ter no máximo 5 chaves cadastradas, enquanto que uma conta de pessoa jurídica pode ter até 20 chaves. Contudo, as chaves do tipo CPF/CNPJ possuem um limite de uma chave por conta, tendo as demais chaves uma quantidade limite diferente para cada caso. 
 
 ## QR Code
 
-É possível também fazer transações Pix utilizando QR codes como identificadores de transações. Existem dois tipos distintos, sendo eles:
+É possível também fazer transações Pix utilizando QR code como identificadores de transações. Existem dois tipos distintos, sendo eles:
 
-- QR code estático;
+- QR code estático.
 - QR code dinâmico.
 
 O **QR code estático** permite que várias transações sejam realizadas a partir de um mesmo QR code. Com isso, é possível definir valores fixos para produtos e serviços e disponibilizar o QR code previamente como método de pagamento. 
 
-O **QR code dinâmico** é exlusivo de cada transação, só podendo ser utilizado uma única vez. Isso significa que idealmente ele será gerado no ato da compra.
+O **QR code dinâmico** é exclusivo de cada transação, só podendo ser utilizado uma única vez. Isso significa que idealmente ele será gerado no ato da compra.
 
 ## Configurando uma chave Pix
 
