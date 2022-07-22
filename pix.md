@@ -20,7 +20,7 @@ até como criar um repositório do zero.
 -->
 # Pix
 
-![logo_pix](https://user-images.githubusercontent.com/30627500/180342797-c089ae51-aa91-4222-b30f-3a173a67db79.png)
+![logo_pix](https://user-images.githubusercontent.com/30627500/180342797-c089ae51-aa91-4222-b30f-3a173a67db79.png "Figura 1. Pix logo - Banco Central do Brasil.")
 
 ## Sumário
 - [Chave Pix](#chave-pix) <br>
@@ -36,7 +36,7 @@ Exemplo: o recebedor cadastrou previamente seu número de telefone celular para 
 
 O Banco Central do Brasil (Bacen) é o órgão regulador responsável pelas normativas referentes ao Pix. Saiba mais em: [Banco Central do Brasil](https://www.bcb.gov.br/estabilidadefinanceira/pix).
 
-![pix](https://user-images.githubusercontent.com/30627500/180342812-bf905b90-62ea-4806-aea1-b9bb8680f0ba.PNG)
+![pix](https://user-images.githubusercontent.com/30627500/180342812-bf905b90-62ea-4806-aea1-b9bb8680f0ba.PNG "Figura 2. Vantagens Pix - Banco Central do Brasil.")
 
 > ### Observação
 > Não há limite mínimo para pagamentos ou transferências via Pix. Entretanto, as instituições que ofertam o Pix poderão estabelecer limites máximos de valor baseados em critérios de mitigação de riscos de fraude e de critérios de prevenção à lavagem de dinheiro e ao financiamento do terrorismo. Os usuários podem solicitar ajustes nos limites estabelecidos, devendo a instituição acatar imediatamente a solicitação caso o pedido seja para redução de valor.
@@ -73,7 +73,7 @@ O processo de configuração de uma chave Pix se inicia através do aplicativo d
 
 O fluxograma abaixo representa a experiência de criação de uma chave Pix.
 
-![fluxograma](https://user-images.githubusercontent.com/30627500/180355155-d96d765b-eede-4941-a065-5c0e007f1b3b.jpeg)
+![fluxograma](https://user-images.githubusercontent.com/30627500/180355155-d96d765b-eede-4941-a065-5c0e007f1b3b.jpeg "Figura 3. Fluxograma da jornada do usuário.")
 
 > ### Observação
 > É possível realizar a migração de uma chave já existente entre diferentes instituições financeiras. Caso um usuário queira cadastrar uma chave com um dado já utilizado, será dada a opção de portar essa chave para a nova conta no momento de criação da chave. O DICT, sistema do Banco Central que gerencia o cadastro das chaves do Pix, será o responsável por conectar as duas instituições e garantir que a portabilidade seja feita.
