@@ -1,26 +1,6 @@
-<!--
-
-Contexto
-Você atua como Technical Writer em uma empresa e o Product Manager do projeto
-que você faz parte pediu um tutorial, em português, de como utilizar o produto.
-
-
-Para isso, ele te orientou a criar um repositório no Github e escrever em markdown um
-texto com o tema "Como configurar sua chave PIX".
-
-
-Instruções
-● Pense que este tutorial poderia ser publicado em uma documentação pública. Por isso,
-além do texto, seria interessante entender como você estruturaria as informações da
-página com menu, submenu e demais recursos, como tabelas, listas ou tabs.
-● Crie um repositório em sua conta no Github com o nome pix-tutorial. Você pode
-consultar a documentação oficial do Github para entender desde como abrir uma conta
-até como criar um repositório do zero.
-
--->
 # Pix
 
-!["Figura 1. Pix logo - Banco Central do Brasil."](https://user-images.githubusercontent.com/30627500/180342797-c089ae51-aa91-4222-b30f-3a173a67db79.png "Figura 1. Pix logo - Banco Central do Brasil.")
+![logo_pix](https://user-images.githubusercontent.com/30627500/180342797-c089ae51-aa91-4222-b30f-3a173a67db79.png "Figura 1. Pix logo - Banco Central do Brasil.")
 
 ## Sumário
 - [Chave Pix](#chave-pix) <br>
@@ -28,31 +8,31 @@ até como criar um repositório do zero.
 - [Configurando uma chave Pix](#configurando-uma-chave-pix)
 ---
 
-O Pix é o sistema de pagamento instântaneo lançado em 2020 pelo Banco Central do Brasil. Esse meio de pagamento deve ser disponibilizado 24 horas por dia, durante os 7 dias da semana, sem diferenciar finais de simana e feriados.
+O Pix é o sistema de pagamento instântaneo lançado em 2020 pelo **Banco Central do Brasil**. Esse meio de pagamento deve ser disponibilizado 24 horas por dia, durante os 7 dias da semana, sem diferenciar finais de semana ou feriados. 
 
-O seu diferencial é que em poucos segundos a transferência deve ser concluída, permitindo que o dinheiro saia de uma conta A para uma conta B rapidamente. O Pix pode ser realizado a partir de uma conta corrente, conta poupança ou conta de pagamento pré-paga.
+O seu diferencial é que em poucos segundos a transferência será concluída, permitindo que o dinheiro saia de uma conta A para uma conta B rapidamente. Tudo isso será feito bastando saber a chave Pix, ao invés de pedir agência, conta e dados pessoais do recebedor.
 
-Exemplo: o recebedor cadastrou previamente seu número de telefone celular para receber o crédito em determinada conta. Então, em vez de informar manualmente todos os dados, inclui apenas o número do telefone celular. Ao fazer um Pix, o sistema identifica as informações da conta do credor a partir dessa chave.
+O Pix pode ser realizado a partir de uma conta corrente, conta poupança ou conta de pagamento pré-paga. O **Banco Central do Brasil (Bacen)** é o órgão regulador responsável pelas normativas referentes ao Pix. 
 
-O Banco Central do Brasil (Bacen) é o órgão regulador responsável pelas normativas referentes ao Pix. Saiba mais em: [Banco Central do Brasil](https://www.bcb.gov.br/estabilidadefinanceira/pix).
+Saiba mais em: [Banco Central do Brasil](https://www.bcb.gov.br/estabilidadefinanceira/pix).
 
 ![pix](https://user-images.githubusercontent.com/30627500/180342812-bf905b90-62ea-4806-aea1-b9bb8680f0ba.PNG "Figura 2. Vantagens Pix - Banco Central do Brasil.")
 
 > ### Observação
-> Não há limite mínimo para pagamentos ou transferências via Pix. Entretanto, as instituições que ofertam o Pix poderão estabelecer limites máximos de valor baseados em critérios de mitigação de riscos de fraude e de critérios de prevenção à lavagem de dinheiro e ao financiamento do terrorismo. Os usuários podem solicitar ajustes nos limites estabelecidos, devendo a instituição acatar imediatamente a solicitação caso o pedido seja para redução de valor.
+> **Não existe limite mínimo de valores para pagamentos ou transferências via Pix.** Entretanto, as instituições que ofertam o Pix poderão estabelecer limites máximos de valor baseados em critérios de mitigação de riscos de fraude e de critérios de prevenção à lavagem de dinheiro e ao financiamento do terrorismo. Os usuários podem solicitar ajustes nos limites estabelecidos caso achem necessário, **devendo a instituição acatar imediatamente** a solicitação se o pedido seja para redução de valor.
 
 ## Chave Pix
 
 A chave Pix é um identificador utilizado para facilitar a transação, necessitando apenas de uma informação do recebedor para que a transferência seja realizada.
 
-Ela contém as informações de seus usuários, com suas respectivas contas transacionais e fica armazenada numa base de dados chamada Pix DICT - Diretório de Identificadores de Contas Transacionais.  A chave pix previamente cadastrada pode ser:
+Ela contém as informações de seus usuários, com suas respectivas contas transacionais e fica armazenada numa base de dados chamada _Pix DICT - Diretório de Identificadores de Contas Transacionais_.  A chave pix previamente cadastrada pode ser:
 
 - CPF ou CNPJ;
 - E-mail;
 - Número de celular;
 - Chave aleatória (sequência alfanumérica gerada aleatoriamente). 
 
-Atualmente, uma conta de pessoa física pode ter no máximo 5 chaves cadastradas, enquanto que uma conta de pessoa jurídica pode ter até 20 chaves. Contudo, as chaves do tipo CPF/CNPJ possuem um limite de uma chave por conta, tendo as demais chaves uma quantidade limite permitida diferente para cada caso. 
+Atualmente, uma conta de pessoa física pode ter no máximo 5 chaves cadastradas, enquanto que uma conta de pessoa jurídica pode ter até 20 chaves. Contudo, as chaves do tipo CPF/CNPJ possuem um limite de uma chave por conta, tendo as demais chaves uma quantidade limite diferente para cada caso. 
 
 ## QR Code
 
@@ -61,7 +41,9 @@ Atualmente, uma conta de pessoa física pode ter no máximo 5 chaves cadastradas
 - QR code estático;
 - QR code dinâmico.
 
-O QR code estático permite que várias transações sejam realizadas a partir de um mesmo QR code. Com isso, é possível definir valores fixos para produtos e serviçoes e disponibilizar o QR code previamente como método de pagamento. O QR code dinâmico é exlusivo de cada transação, só podendo ser utilizados uma única vez. Isso significa que idealmente ele será gerado no ato da compra.
+O **QR code estático** permite que várias transações sejam realizadas a partir de um mesmo QR code. Com isso, é possível definir valores fixos para produtos e serviços e disponibilizar o QR code previamente como método de pagamento. 
+
+O **QR code dinâmico** é exlusivo de cada transação, só podendo ser utilizado uma única vez. Isso significa que idealmente ele será gerado no ato da compra.
 
 ## Configurando uma chave Pix
 
@@ -76,6 +58,4 @@ O fluxograma abaixo representa a experiência de criação de uma chave Pix.
 ![fluxograma](https://user-images.githubusercontent.com/30627500/180355155-d96d765b-eede-4941-a065-5c0e007f1b3b.jpeg "Figura 3. Fluxograma da jornada do usuário.")
 
 > ### Observação
-> É possível realizar a migração de uma chave já existente entre diferentes instituições financeiras. Caso um usuário queira cadastrar uma chave com um dado já utilizado, será dada a opção de portar essa chave para a nova conta no momento de criação da chave. O DICT, sistema do Banco Central que gerencia o cadastro das chaves do Pix, será o responsável por conectar as duas instituições e garantir que a portabilidade seja feita.
-
-<!--PIX -> CRIAR CHAVE PIX -> ESCOLHER O TIPO DE CHAVE PIX -> INFORMAR O DADO CASO NÃO SEJA CHAVE ALEATÓRIA -> CONFIRMAR O DADO -> O DADO SERÁ VALIDADO, PARA CHECAR SE NÃO JÁ ESTÁ EM USO -> CASO NÃO ESTEJA EM USO, A CHAVE SERÁ CRIADA. SE TIVER EM USO, SERÁ POSSÍVEL PEDIR PORTABILIDADE DA CHAVE PIX PARA A NOVA INSTITUIÇÃO. -->
+> É possível realizar a migração de uma chave já existente entre diferentes instituições financeiras. Caso um usuário queira cadastrar uma chave com um dado já utilizado, será dada a opção de portar essa chave para a nova conta no momento de criação da chave. **O DICT, sistema do Banco Central que gerencia o cadastro das chaves do Pix**, será o responsável por conectar as duas instituições e garantir que a portabilidade seja feita.
