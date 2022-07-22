@@ -20,7 +20,7 @@ até como criar um repositório do zero.
 -->
 # Pix
 
-![logo_pix](https://user-images.githubusercontent.com/30627500/180342452-969c6364-98cc-4927-af21-889d64e2a015.png "Figura 1.")
+:![logo_pix](https://user-images.githubusercontent.com/30627500/180342452-969c6364-98cc-4927-af21-889d64e2a015.png "Figura 1."):
 
 O Pix é o sistema de pagamento instântaneo lançado em 2020 pelo Banco Central do Brasil. Esse meio de pagamento deve ser disponibilizado 24 horas por dia, durante os 7 dias da semana, sem diferenciar finais de simana e feriados.
 
